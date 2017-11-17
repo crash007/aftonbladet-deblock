@@ -11,7 +11,7 @@ jQuery(document).ready(function () {
                var d = $('img[alt=freewall]').parent().parent().parent().parent();
                 d.parent().children().last().remove();
                 d.remove();
-                $('.abThemeGradientPage').children().first().addClass("noblur");
+                $('#header').parent().children().last().children().first().addClass("noblur");
             }
         });
     });
