@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Aftonbladet Deblock",
-	"short_name": "Af-Deblock,
+	"short_name": "Af-Deblock",
 	"version": "0.1",
 	"description": "Removes adblock-popup on aftonbladet.se",
 	"homepage_url": "https://github.com/crash007/aftonbladet-deblock",
@@ -22,6 +22,7 @@
 		}
 	],
 	"icons": {
-		"128": ""
+        "48": "aftonbladet-deblock-48.png",
+		"128": "aftonbladet-deblock-128.png"
 	}
 }
