@@ -8,8 +8,9 @@ jQuery(document).ready(function () {
         $(mutations).each(function (i) {
             
             if($('img[alt="freewall"]').length > 0){
-               var d = $('img[alt=freewall]').parent().parent().parent().parent();
-                d.parent().children().last().remove();
+               var d = $('img[alt=freewall]').parent().parent().parent();
+		
+		//d.parent().children().last().remove();
                 d.remove();
                 $('#header').parent().children().last().children().first().addClass("noblur");
             }
